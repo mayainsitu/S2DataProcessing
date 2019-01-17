@@ -27,6 +27,6 @@ Run bash script '' (I still need to create it). The script will do the following
 ## Running the script
 To run the Jupyter Notebook, first go to your terminal/commandline and enter:
 
-jupyter notebook
+*jupyter notebook*
 
 This will launch jupyter in your browser, and you can play with the script from there
