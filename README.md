@@ -19,12 +19,13 @@ Add new configuration in the Configuration Utility. Set whatever name for it you
 From your new configuration, make a note of the "ID" - this will be required in the Jupyter Notebook  for the data requests from Sentinel Hub.
 
 ## Initial setup
-Run bash script '' (I still need to create it). The script will automatically do the following:
 1. Install Anaconda if not already on your system
 2. Create a new conda environment
-3. Install correct package versions into the conda environment
+3. Install correct package versions into the conda environment (listed in file "requirements.txt")
 
-## Running the script
+I want to create a bash script that when run will do this setup automatically on your local machine, perform the above steps and make sure the setup is done correctly for this notebook - but I still need to create this.
+
+## Running the notebook
 To run the Jupyter Notebook, first go to your terminal/commandline and enter:
 
 *jupyter notebook*
