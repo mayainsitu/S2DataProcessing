@@ -25,7 +25,7 @@ From your new configuration, make a note of the "ID" - this will be required in 
 
 I want to create a bash script that when run will do this setup automatically on your local machine, perform the above steps and make sure the setup is done correctly for this notebook - but I still need to create this.
 
-Add the environment as a kernel in jupyter with following command: 
+To add the environment as a kernel in jupyter, first install ipykernel in the environment, then run the following command: 
 *python -m ipykernel install --user --name=<insert_name_assigned>* 
 
 ## Running the notebook
