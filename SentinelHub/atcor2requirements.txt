@@ -1,7 +1,5 @@
 affine==2.2.2
 alabaster==0.7.12
-anaconda-client==1.7.2
-anaconda-project==0.8.2
 asn1crypto==0.24.0
 astroid==2.1.0
 astropy==3.1
