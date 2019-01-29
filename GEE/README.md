@@ -4,9 +4,17 @@ ____
 Atmospheric correction of Sentinel 2 imagery in Google Earth Engine using [Py6S](http://py6s.readthedocs.io/en/latest/).
 
 ### Installation
-Create a conda environment based on the environment variable here: ""
+Before running, Anaconda needs to be installed on your system. Go [here](https://www.anaconda.com/download/) to download the latest version, and install by following the instructions on the site.
 
-By running all notebooks in this environment/kernel, all the package prerequisites will be met. 
+Verify your installation by running
+
+`conda --version`
+
+Once you've got conda working, create a new environment to suit the requirements of the notebooks here. To do that, run the following command in your terminal
+
+`conda env create -f environment.yml`
+
+This will set up an environment/kernel with all the suitable package versions for the notebooks here.
 
 ### Usage
 
@@ -16,7 +24,7 @@ Before beginning, authenticate Earth Engine in the terminal with the following c
 
 Next, activate your environment by using the command:
 
-`conda activate *yourenvironmentname*`
+`conda activate geepy6s-env`
 
 Finally, start jupyter notebook and navigate to the notebooks here. Use the command:
 
@@ -30,4 +38,4 @@ For the atmospheric correction, functions were sourced from Sam Murphy's reposit
 For cloud masking, GEEtools and S2Cloudless the following repositories were used:
 
 - [GEE-Tools](https://github.com/gee-community/gee_tools)
-- [S2Cloudless](https://github.com/sentinel-hub/sentinel2-cloud-detector) 
+- [S2Cloudless](https://github.com/sentinel-hub/sentinel2-cloud-detector)
