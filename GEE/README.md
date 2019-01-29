@@ -29,7 +29,10 @@ Finally, start jupyter notebook and navigate to the notebooks here. Use the comm
 
 ### References
 For the atmospheric correction, functions were sourced from Sam Murphy's repository (link below)
-`git clone https://github.com/samsammurphy/gee-atmcorr-S2`
-For cloud masking, GEEtools and S2Cloudless were used:
-`https://github.com/gee-community/gee_tools` 
-`https://github.com/sentinel-hub/sentinel2-cloud-detector` 
+
+[Py6S Atmospheric Correction](https://github.com/samsammurphy/gee-atmcorr-S2)
+
+For cloud masking, GEEtools and S2Cloudless the following repositories were used:
+
+- [GEE-Tools](https://github.com/gee-community/gee_tools)
+- [S2Cloudless](https://github.com/sentinel-hub/sentinel2-cloud-detector) 
