@@ -4,14 +4,9 @@ ____
 Atmospheric correction of Sentinel 2 imagery in Google Earth Engine using [Py6S](http://py6s.readthedocs.io/en/latest/).
 
 ### Installation
-This repo has the following prerequisites
+Create a conda environment based on the environment variable here: ""
 
-- [Python 3.x](https://www.python.org/downloads/)
-- [Google Earth Engine Python API](https://developers.google.com/earth-engine/python_install_manual)
-- [Jupyter](http://jupyter.readthedocs.io/en/latest/install.html)
-- [Py6S](http://py6s.readthedocs.io/en/latest/installation.html)
-
-These are all bundled in the environment variable here. Create a conda environment based on these requirements. 
+By running all notebooks in this environment/kernel, all the package prerequisites will be met. 
 
 ### Usage
 
