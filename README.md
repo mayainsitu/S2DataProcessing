@@ -1,8 +1,8 @@
 # S2DataProcessing
 ## NOTE: This repository is currently a work in progress - use at your own risk!
 ## Goal of this repository:
-- Atmospheric correction and cloud removal of Sentinel L1C images to create L2A products. (*Complete!*)
-- Monthly composites of cloud-free L2A products (*In Progress*)
+- Atmospheric correction and cloud removal of Sentinel L1C images to create L2A products. 
+- Monthly composites of cloud-free L2A products 
 - Time series analysis of pixels from the monthly composites (study site VS similar pixels nearby -- *In Progress*) 
 
 Separate notebooks for each goal? And separate environments?
