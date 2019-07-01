@@ -1,7 +1,7 @@
 # Sentinel-2 L1C pre-processing
 
 ### Goal of this repository:
-- Pre-processing of Sentinel-2 imagery on cloud-computing platforms
+Pre-processing of Sentinel-2 imagery on cloud-computing platforms, involves:
 - Atmospheric correction and cloud removal of Sentinel L1C images to create L2A products
 - Monthly composites of cloud-free L2A products 
 
