@@ -1,4 +1,4 @@
-# S2DataProcessing
+# Sentinel-2 L1C pre-processing
 
 ### Goal of this repository:
 - Atmospheric correction and cloud removal of Sentinel L1C images to create L2A products. 
