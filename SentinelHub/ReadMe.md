@@ -14,8 +14,6 @@ From your new configuration, make a note of the "ID" - this will be required in 
 2. Create a new conda environment
 3. Install correct package versions into the conda environment (listed in file "requirements.txt")
 
-I want to create a bash script that when run will do this setup automatically on your local machine, perform the above steps and make sure the setup is done correctly for this notebook - but I still need to create this.
-
 To add the environment as a kernel in jupyter, first install ipykernel in the environment, then run the following command: 
 *python -m ipykernel install --user --name=<insert_name_assigned>* 
 
