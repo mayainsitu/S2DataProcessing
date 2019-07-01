@@ -1,5 +1,5 @@
 # S2DataProcessing
-## NOTE: This repository is currently a work in progress - use at your own risk!
+## NOTE: This repository is not being maintained - use at your own risk!
 ## Goal of this repository:
 - Atmospheric correction and cloud removal of Sentinel L1C images to create L2A products. 
 - Monthly composites of cloud-free L2A products 
